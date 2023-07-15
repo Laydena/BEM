@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'Intro Regular';
+    src: url('/assets/fonts/Intro/Intro-Regular.eot');
+    src: url('/assets/fonts/Intro/Intro-Regular.eot') format('embedded-opentype'),
+        url('/assets/fonts/Intro/Intro-Regular.woff') format('woff'),
+        url('/assets/fonts/Intro/Intro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1290px;
+    margin: auto;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.header__logo {
+    display: flex;
+    gap: 15px;
+}
+
+.header__logo__img,
+.aside__button__icon {
+    display: block;
+}
+
+h1 {
+    font-family: 'Intro Regular';
+}
+
+.header__button {
+    border-radius: 100px;
+    background: var(--unnamed, #5222D0);
+
+    font-family: 'Intro Regular';
+    color: white;
+    padding: 14px 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.main_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+
+}
+
+.aside__title {
+    color: var(--unnamed, #000);
+    font-family: 'Intro Regular';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 76px 0 0 0;
+    /* 72px */
+}
+
+.aside__text {
+    color: var(--unnamed, #000);
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    /* 32px */
+}
+
+.aside__button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background: var(--unnamed, #5222D0);
+    width: 50%;
+    border: none;
+    padding: 21px 33px;
+    margin-bottom: 146px;
+    cursor: pointer;
+
+    font-family: 'Intro Regular';
+    color: var(--unnamed, #FFF);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.aside__right {
+
+    background-image: url('../image/background.png');
+    background-repeat: no-repeat;
+    z-index: -1;
+
+
+    height: 826px;
+    width: 726px;
+
+}
+
+.aside__right_picture {
+    padding-left: 55px;
+    padding-top: 33px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav__item {
+    color: #5222D0;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    text-decoration: none;
+    /* 32px */
+}
