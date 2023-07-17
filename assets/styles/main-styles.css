@@ -33,26 +33,34 @@ html {
 
 }
 
-.header__logo {
+.logo-group {
     display: flex;
+    align-items: center;
     gap: 15px;
 }
 
-.header__logo-img,
-.aside__button-icon {
+.logo-group__logo,
+.button__icon-cart {
     display: block;
 }
 
-h1 {
+.logo-group__title {
     font-family: 'Intro Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
 }
 
-.header__button {
+.button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
     border-radius: 100px;
     background: var(--unnamed, #5222D0);
 
     font-family: 'Intro Regular';
-    text-transform: uppercase;
     color: white;
     padding: 14px 16px;
     border: none;
@@ -60,9 +68,14 @@ h1 {
 
 }
 
+.button__title {
+    text-transform: uppercase;
+}
+
 .name {
     color: var(--unnamed, #000);
     font-family: 'Intro Regular';
+    text-transform: uppercase;
     font-size: 60px;
     font-style: normal;
     font-weight: 600;
@@ -95,7 +108,7 @@ h1 {
     margin-bottom: 70px;
 }
 
-.table_cell {
+.table-cell {
     display: flex;
     flex-direction: column;
     margin: 0 20px 0 20px;
