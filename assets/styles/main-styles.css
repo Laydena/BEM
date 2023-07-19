@@ -103,7 +103,7 @@ html {
 
 .table {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 406px);
+    grid-template-columns: repeat(auto-fill, minmax(406px, auto));
     justify-content: space-between;
     margin-bottom: 70px;
 }
@@ -132,7 +132,7 @@ html {
 
 
 .table_cell_picture {
-    width: 335px;
+    width: 100%;
 
 }
 

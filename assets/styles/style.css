@@ -75,7 +75,13 @@ html {
 .main_content {
     display: flex;
     flex-direction: row;
+    width: 100%;
     justify-content: space-between;
+
+    background-image: url(../image/background2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .aside {
